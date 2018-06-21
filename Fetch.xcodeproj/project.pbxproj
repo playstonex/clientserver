@@ -22,11 +22,11 @@
 		ABFF537A20DB2B1600EA2A6F /* CSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8878B720BBAFA600D8E3A7 /* CSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFF537D20DB2B4100EA2A6F /* CSRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFF537B20DB2B4100EA2A6F /* CSRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFF537E20DB2B4100EA2A6F /* CSRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF537C20DB2B4100EA2A6F /* CSRequestManager.m */; };
-		ABFF539120DB386D00EA2A6F /* ClientServer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF538820DB386D00EA2A6F /* ClientServer_iOS.framework */; };
+		ABFF539120DB386D00EA2A6F /* ClientServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF538820DB386D00EA2A6F /* ClientServer.framework */; };
 		ABFF539820DB386D00EA2A6F /* ClientServer_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF539720DB386D00EA2A6F /* ClientServer_iOSTests.m */; };
 		ABFF539A20DB386D00EA2A6F /* ClientServer_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFF538A20DB386D00EA2A6F /* ClientServer_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABFF539D20DB386D00EA2A6F /* ClientServer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF538820DB386D00EA2A6F /* ClientServer_iOS.framework */; };
-		ABFF539E20DB386D00EA2A6F /* ClientServer_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF538820DB386D00EA2A6F /* ClientServer_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ABFF539D20DB386D00EA2A6F /* ClientServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF538820DB386D00EA2A6F /* ClientServer.framework */; };
+		ABFF539E20DB386D00EA2A6F /* ClientServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF538820DB386D00EA2A6F /* ClientServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABFF53AA20DB388500EA2A6F /* CSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFF53A620DB388400EA2A6F /* CSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFF53AB20DB388500EA2A6F /* CSRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFF53A720DB388400EA2A6F /* CSRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFF53AC20DB388500EA2A6F /* CSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF53A820DB388400EA2A6F /* CSRequest.m */; };
@@ -85,7 +85,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ABFF539E20DB386D00EA2A6F /* ClientServer_iOS.framework in Embed Frameworks */,
+				ABFF539E20DB386D00EA2A6F /* ClientServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,7 +118,7 @@
 		ABFF537120DB29DA00EA2A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABFF537B20DB2B4100EA2A6F /* CSRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSRequestManager.h; sourceTree = "<group>"; };
 		ABFF537C20DB2B4100EA2A6F /* CSRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSRequestManager.m; sourceTree = "<group>"; };
-		ABFF538820DB386D00EA2A6F /* ClientServer_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClientServer_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFF538820DB386D00EA2A6F /* ClientServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClientServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF538A20DB386D00EA2A6F /* ClientServer_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientServer_iOS.h; sourceTree = "<group>"; };
 		ABFF538B20DB386D00EA2A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABFF539020DB386D00EA2A6F /* ClientServer-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ClientServer-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFF539D20DB386D00EA2A6F /* ClientServer_iOS.framework in Frameworks */,
+				ABFF539D20DB386D00EA2A6F /* ClientServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFF539120DB386D00EA2A6F /* ClientServer_iOS.framework in Frameworks */,
+				ABFF539120DB386D00EA2A6F /* ClientServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +210,7 @@
 				AB8878A420BBADC400D8E3A7 /* FetchUITests.xctest */,
 				ABFF536220DB29D900EA2A6F /* ClientServer.framework */,
 				ABFF536A20DB29DA00EA2A6F /* ClientServerTests.xctest */,
-				ABFF538820DB386D00EA2A6F /* ClientServer_iOS.framework */,
+				ABFF538820DB386D00EA2A6F /* ClientServer.framework */,
 				ABFF539020DB386D00EA2A6F /* ClientServer-iOSTests.xctest */,
 			);
 			name = Products;
@@ -431,7 +431,7 @@
 			);
 			name = "ClientServer-iOS";
 			productName = "ClientServer-iOS";
-			productReference = ABFF538820DB386D00EA2A6F /* ClientServer_iOS.framework */;
+			productReference = ABFF538820DB386D00EA2A6F /* ClientServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ABFF538F20DB386D00EA2A6F /* ClientServer-iOSTests */ = {
@@ -925,6 +925,7 @@
 		ABFF537320DB29DA00EA2A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -955,6 +956,7 @@
 		ABFF537420DB29DA00EA2A6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1042,7 +1044,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.ClientServer-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ClientServer;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1070,7 +1072,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.ClientServer-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ClientServer;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
