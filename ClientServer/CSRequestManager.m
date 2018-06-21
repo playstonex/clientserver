@@ -63,16 +63,10 @@ typedef void(^CALLBACK)(NSString *, NSString*);
     self.requestModel = model;
     __weak CSRequestManager *weakSelf =  self;
     self.callback = ^(NSString *identifier, NSString *message, NSString *error) {
-        NSLog(@"Result:%@, error:%@", message, error);
-        
         CALLBACK callback = (CALLBACK)[weakSelf.callbackPool objectForKey:identifier];
-        
         callback(message, error);
-        
-        
         [weakSelf.callbackPool removeObjectForKey:identifier];
         [weakSelf.requestPool removeObjectForKey:identifier];
-        
     };
     
     void(^log)(NSString *) = ^(NSString *message) {
