@@ -33,6 +33,15 @@
     return [NSJSONSerialization JSONObjectWithData:self.data options:NSJSONReadingAllowFragments error:nil];
 }
 
+- (NSString *)errorInfo {
+    if (self.error == nil) {
+        return nil;
+    }
+    else {
+        return self.error.localizedDescription;
+    }
+}
+
 @end
 
 @implementation CSRequest

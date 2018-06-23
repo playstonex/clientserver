@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABFF538720DB386D00EA2A6F"
-               BuildableName = "ClientServer_iOS.framework"
+               BuildableName = "ClientServer.framework"
                BlueprintName = "ClientServer-iOS"
                ReferencedContainer = "container:Fetch.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABFF538720DB386D00EA2A6F"
-            BuildableName = "ClientServer_iOS.framework"
+            BuildableName = "ClientServer.framework"
             BlueprintName = "ClientServer-iOS"
             ReferencedContainer = "container:Fetch.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABFF538720DB386D00EA2A6F"
-            BuildableName = "ClientServer_iOS.framework"
+            BuildableName = "ClientServer.framework"
             BlueprintName = "ClientServer-iOS"
             ReferencedContainer = "container:Fetch.xcodeproj">
          </BuildableReference>

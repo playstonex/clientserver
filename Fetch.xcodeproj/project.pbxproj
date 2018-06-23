@@ -24,13 +24,22 @@
 		ABFF537E20DB2B4100EA2A6F /* CSRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF537C20DB2B4100EA2A6F /* CSRequestManager.m */; };
 		ABFF539120DB386D00EA2A6F /* ClientServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF538820DB386D00EA2A6F /* ClientServer.framework */; };
 		ABFF539820DB386D00EA2A6F /* ClientServer_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF539720DB386D00EA2A6F /* ClientServer_iOSTests.m */; };
-		ABFF539A20DB386D00EA2A6F /* ClientServer_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFF538A20DB386D00EA2A6F /* ClientServer_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFF539A20DB386D00EA2A6F /* ClientServer.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFF538A20DB386D00EA2A6F /* ClientServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFF539D20DB386D00EA2A6F /* ClientServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF538820DB386D00EA2A6F /* ClientServer.framework */; };
 		ABFF539E20DB386D00EA2A6F /* ClientServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF538820DB386D00EA2A6F /* ClientServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABFF53AA20DB388500EA2A6F /* CSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFF53A620DB388400EA2A6F /* CSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFF53AB20DB388500EA2A6F /* CSRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFF53A720DB388400EA2A6F /* CSRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFF53AC20DB388500EA2A6F /* CSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF53A820DB388400EA2A6F /* CSRequest.m */; };
 		ABFF53AD20DB388500EA2A6F /* CSRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF53A920DB388400EA2A6F /* CSRequestManager.m */; };
+		ABFF53BA20DC7B1300EA2A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF53B920DC7B1300EA2A6F /* AppDelegate.m */; };
+		ABFF53BD20DC7B1300EA2A6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF53BC20DC7B1300EA2A6F /* ViewController.m */; };
+		ABFF53BF20DC7B1400EA2A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFF53BE20DC7B1400EA2A6F /* Assets.xcassets */; };
+		ABFF53C220DC7B1400EA2A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFF53C020DC7B1400EA2A6F /* Main.storyboard */; };
+		ABFF53C520DC7B1400EA2A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF53C420DC7B1400EA2A6F /* main.m */; };
+		ABFF53D020DC7B1400EA2A6F /* Fetch_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF53CF20DC7B1400EA2A6F /* Fetch_MacTests.m */; };
+		ABFF53DB20DC7B1400EA2A6F /* Fetch_MacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF53DA20DC7B1400EA2A6F /* Fetch_MacUITests.m */; };
+		ABFF53E820DC7B3C00EA2A6F /* ClientServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF536220DB29D900EA2A6F /* ClientServer.framework */; };
+		ABFF53EA20DC7CE000EA2A6F /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = ABFF53E920DC7CDF00EA2A6F /* bundle.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +85,27 @@
 			remoteGlobalIDString = ABFF538720DB386D00EA2A6F;
 			remoteInfo = "ClientServer-iOS";
 		};
+		ABFF53CC20DC7B1400EA2A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB88787D20BBADC200D8E3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFF53B520DC7B1300EA2A6F;
+			remoteInfo = "Fetch-Mac";
+		};
+		ABFF53D720DC7B1400EA2A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB88787D20BBADC200D8E3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFF53B520DC7B1300EA2A6F;
+			remoteInfo = "Fetch-Mac";
+		};
+		ABFF53E620DC7B3100EA2A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB88787D20BBADC200D8E3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFF536120DB29D900EA2A6F;
+			remoteInfo = ClientServer;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,7 +149,7 @@
 		ABFF537B20DB2B4100EA2A6F /* CSRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSRequestManager.h; sourceTree = "<group>"; };
 		ABFF537C20DB2B4100EA2A6F /* CSRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSRequestManager.m; sourceTree = "<group>"; };
 		ABFF538820DB386D00EA2A6F /* ClientServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClientServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABFF538A20DB386D00EA2A6F /* ClientServer_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientServer_iOS.h; sourceTree = "<group>"; };
+		ABFF538A20DB386D00EA2A6F /* ClientServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientServer.h; sourceTree = "<group>"; };
 		ABFF538B20DB386D00EA2A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABFF539020DB386D00EA2A6F /* ClientServer-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ClientServer-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF539720DB386D00EA2A6F /* ClientServer_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientServer_iOSTests.m; sourceTree = "<group>"; };
@@ -128,6 +158,23 @@
 		ABFF53A720DB388400EA2A6F /* CSRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSRequestManager.h; path = ClientServer/CSRequestManager.h; sourceTree = SOURCE_ROOT; };
 		ABFF53A820DB388400EA2A6F /* CSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSRequest.m; path = ClientServer/CSRequest.m; sourceTree = SOURCE_ROOT; };
 		ABFF53A920DB388400EA2A6F /* CSRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSRequestManager.m; path = ClientServer/CSRequestManager.m; sourceTree = SOURCE_ROOT; };
+		ABFF53B620DC7B1300EA2A6F /* Fetch-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFF53B820DC7B1300EA2A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABFF53B920DC7B1300EA2A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABFF53BB20DC7B1300EA2A6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABFF53BC20DC7B1300EA2A6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABFF53BE20DC7B1400EA2A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABFF53C120DC7B1400EA2A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABFF53C320DC7B1400EA2A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFF53C420DC7B1400EA2A6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABFF53C620DC7B1400EA2A6F /* Fetch_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fetch_Mac.entitlements; sourceTree = "<group>"; };
+		ABFF53CB20DC7B1400EA2A6F /* Fetch-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFF53CF20DC7B1400EA2A6F /* Fetch_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fetch_MacTests.m; sourceTree = "<group>"; };
+		ABFF53D120DC7B1400EA2A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFF53D620DC7B1400EA2A6F /* Fetch-MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch-MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFF53DA20DC7B1400EA2A6F /* Fetch_MacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fetch_MacUITests.m; sourceTree = "<group>"; };
+		ABFF53DC20DC7B1400EA2A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFF53E920DC7CDF00EA2A6F /* bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bundle.js; path = Javascripts/dist/bundle.js; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +230,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABFF53B320DC7B1300EA2A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFF53E820DC7B3C00EA2A6F /* ClientServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFF53C820DC7B1400EA2A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFF53D320DC7B1400EA2A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -196,6 +265,9 @@
 				ABFF536E20DB29DA00EA2A6F /* ClientServerTests */,
 				ABFF538920DB386D00EA2A6F /* ClientServer-iOS */,
 				ABFF539620DB386D00EA2A6F /* ClientServer-iOSTests */,
+				ABFF53B720DC7B1300EA2A6F /* Fetch-Mac */,
+				ABFF53CE20DC7B1400EA2A6F /* Fetch-MacTests */,
+				ABFF53D920DC7B1400EA2A6F /* Fetch-MacUITests */,
 				AB88788620BBADC200D8E3A7 /* Products */,
 				AB8878B620BBAFA600D8E3A7 /* Fetch-Bridging-Header.h */,
 				ABFF538120DB37FE00EA2A6F /* Frameworks */,
@@ -212,6 +284,9 @@
 				ABFF536A20DB29DA00EA2A6F /* ClientServerTests.xctest */,
 				ABFF538820DB386D00EA2A6F /* ClientServer.framework */,
 				ABFF539020DB386D00EA2A6F /* ClientServer-iOSTests.xctest */,
+				ABFF53B620DC7B1300EA2A6F /* Fetch-Mac.app */,
+				ABFF53CB20DC7B1400EA2A6F /* Fetch-MacTests.xctest */,
+				ABFF53D620DC7B1400EA2A6F /* Fetch-MacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,7 +355,7 @@
 		ABFF538920DB386D00EA2A6F /* ClientServer-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				ABFF538A20DB386D00EA2A6F /* ClientServer_iOS.h */,
+				ABFF538A20DB386D00EA2A6F /* ClientServer.h */,
 				ABFF53A620DB388400EA2A6F /* CSRequest.h */,
 				ABFF53A820DB388400EA2A6F /* CSRequest.m */,
 				ABFF53A720DB388400EA2A6F /* CSRequestManager.h */,
@@ -297,6 +372,41 @@
 				ABFF539920DB386D00EA2A6F /* Info.plist */,
 			);
 			path = "ClientServer-iOSTests";
+			sourceTree = "<group>";
+		};
+		ABFF53B720DC7B1300EA2A6F /* Fetch-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				ABFF53B820DC7B1300EA2A6F /* AppDelegate.h */,
+				ABFF53B920DC7B1300EA2A6F /* AppDelegate.m */,
+				ABFF53BB20DC7B1300EA2A6F /* ViewController.h */,
+				ABFF53BC20DC7B1300EA2A6F /* ViewController.m */,
+				ABFF53E920DC7CDF00EA2A6F /* bundle.js */,
+				ABFF53BE20DC7B1400EA2A6F /* Assets.xcassets */,
+				ABFF53C020DC7B1400EA2A6F /* Main.storyboard */,
+				ABFF53C320DC7B1400EA2A6F /* Info.plist */,
+				ABFF53C420DC7B1400EA2A6F /* main.m */,
+				ABFF53C620DC7B1400EA2A6F /* Fetch_Mac.entitlements */,
+			);
+			path = "Fetch-Mac";
+			sourceTree = "<group>";
+		};
+		ABFF53CE20DC7B1400EA2A6F /* Fetch-MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABFF53CF20DC7B1400EA2A6F /* Fetch_MacTests.m */,
+				ABFF53D120DC7B1400EA2A6F /* Info.plist */,
+			);
+			path = "Fetch-MacTests";
+			sourceTree = "<group>";
+		};
+		ABFF53D920DC7B1400EA2A6F /* Fetch-MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABFF53DA20DC7B1400EA2A6F /* Fetch_MacUITests.m */,
+				ABFF53DC20DC7B1400EA2A6F /* Info.plist */,
+			);
+			path = "Fetch-MacUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +428,7 @@
 			files = (
 				ABFF53AA20DB388500EA2A6F /* CSRequest.h in Headers */,
 				ABFF53AB20DB388500EA2A6F /* CSRequestManager.h in Headers */,
-				ABFF539A20DB386D00EA2A6F /* ClientServer_iOS.h in Headers */,
+				ABFF539A20DB386D00EA2A6F /* ClientServer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +563,60 @@
 			productReference = ABFF539020DB386D00EA2A6F /* ClientServer-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		ABFF53B520DC7B1300EA2A6F /* Fetch-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFF53DD20DC7B1400EA2A6F /* Build configuration list for PBXNativeTarget "Fetch-Mac" */;
+			buildPhases = (
+				ABFF53B220DC7B1300EA2A6F /* Sources */,
+				ABFF53B320DC7B1300EA2A6F /* Frameworks */,
+				ABFF53B420DC7B1300EA2A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFF53E720DC7B3100EA2A6F /* PBXTargetDependency */,
+			);
+			name = "Fetch-Mac";
+			productName = "Fetch-Mac";
+			productReference = ABFF53B620DC7B1300EA2A6F /* Fetch-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABFF53CA20DC7B1400EA2A6F /* Fetch-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFF53E020DC7B1400EA2A6F /* Build configuration list for PBXNativeTarget "Fetch-MacTests" */;
+			buildPhases = (
+				ABFF53C720DC7B1400EA2A6F /* Sources */,
+				ABFF53C820DC7B1400EA2A6F /* Frameworks */,
+				ABFF53C920DC7B1400EA2A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFF53CD20DC7B1400EA2A6F /* PBXTargetDependency */,
+			);
+			name = "Fetch-MacTests";
+			productName = "Fetch-MacTests";
+			productReference = ABFF53CB20DC7B1400EA2A6F /* Fetch-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABFF53D520DC7B1400EA2A6F /* Fetch-MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFF53E320DC7B1400EA2A6F /* Build configuration list for PBXNativeTarget "Fetch-MacUITests" */;
+			buildPhases = (
+				ABFF53D220DC7B1400EA2A6F /* Sources */,
+				ABFF53D320DC7B1400EA2A6F /* Frameworks */,
+				ABFF53D420DC7B1400EA2A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFF53D820DC7B1400EA2A6F /* PBXTargetDependency */,
+			);
+			name = "Fetch-MacUITests";
+			productName = "Fetch-MacUITests";
+			productReference = ABFF53D620DC7B1400EA2A6F /* Fetch-MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -488,6 +652,17 @@
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = AB88788420BBADC200D8E3A7;
 					};
+					ABFF53B520DC7B1300EA2A6F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ABFF53CA20DC7B1400EA2A6F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ABFF53B520DC7B1300EA2A6F;
+					};
+					ABFF53D520DC7B1400EA2A6F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ABFF53B520DC7B1300EA2A6F;
+					};
 				};
 			};
 			buildConfigurationList = AB88788020BBADC200D8E3A7 /* Build configuration list for PBXProject "Fetch" */;
@@ -510,6 +685,9 @@
 				ABFF536920DB29DA00EA2A6F /* ClientServerTests */,
 				ABFF538720DB386D00EA2A6F /* ClientServer-iOS */,
 				ABFF538F20DB386D00EA2A6F /* ClientServer-iOSTests */,
+				ABFF53B520DC7B1300EA2A6F /* Fetch-Mac */,
+				ABFF53CA20DC7B1400EA2A6F /* Fetch-MacTests */,
+				ABFF53D520DC7B1400EA2A6F /* Fetch-MacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -562,6 +740,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABFF538E20DB386D00EA2A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFF53B420DC7B1300EA2A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFF53BF20DC7B1400EA2A6F /* Assets.xcassets in Resources */,
+				ABFF53C220DC7B1400EA2A6F /* Main.storyboard in Resources */,
+				ABFF53EA20DC7CE000EA2A6F /* bundle.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFF53C920DC7B1400EA2A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFF53D420DC7B1400EA2A6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -630,6 +832,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABFF53B220DC7B1300EA2A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFF53BD20DC7B1300EA2A6F /* ViewController.m in Sources */,
+				ABFF53C520DC7B1400EA2A6F /* main.m in Sources */,
+				ABFF53BA20DC7B1300EA2A6F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFF53C720DC7B1400EA2A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFF53D020DC7B1400EA2A6F /* Fetch_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFF53D220DC7B1400EA2A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFF53DB20DC7B1400EA2A6F /* Fetch_MacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -663,6 +891,21 @@
 			target = ABFF538720DB386D00EA2A6F /* ClientServer-iOS */;
 			targetProxy = ABFF539B20DB386D00EA2A6F /* PBXContainerItemProxy */;
 		};
+		ABFF53CD20DC7B1400EA2A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFF53B520DC7B1300EA2A6F /* Fetch-Mac */;
+			targetProxy = ABFF53CC20DC7B1400EA2A6F /* PBXContainerItemProxy */;
+		};
+		ABFF53D820DC7B1400EA2A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFF53B520DC7B1300EA2A6F /* Fetch-Mac */;
+			targetProxy = ABFF53D720DC7B1400EA2A6F /* PBXContainerItemProxy */;
+		};
+		ABFF53E720DC7B3100EA2A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFF536120DB29D900EA2A6F /* ClientServer */;
+			targetProxy = ABFF53E620DC7B3100EA2A6F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -680,6 +923,14 @@
 				AB88789220BBADC300D8E3A7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ABFF53C020DC7B1400EA2A6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFF53C120DC7B1400EA2A6F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1120,6 +1371,134 @@
 			};
 			name = Release;
 		};
+		ABFF53DE20DC7B1400EA2A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Fetch-Mac/Fetch_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Fetch-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Fetch-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABFF53DF20DC7B1400EA2A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Fetch-Mac/Fetch_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Fetch-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Fetch-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABFF53E120DC7B1400EA2A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Fetch-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Fetch-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch-Mac.app/Contents/MacOS/Fetch-Mac";
+			};
+			name = Debug;
+		};
+		ABFF53E220DC7B1400EA2A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Fetch-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Fetch-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch-Mac.app/Contents/MacOS/Fetch-Mac";
+			};
+			name = Release;
+		};
+		ABFF53E420DC7B1400EA2A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Fetch-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Fetch-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Fetch-Mac";
+			};
+			name = Debug;
+		};
+		ABFF53E520DC7B1400EA2A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Fetch-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Fetch-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Fetch-Mac";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1191,6 +1570,33 @@
 			buildConfigurations = (
 				ABFF53A420DB386D00EA2A6F /* Debug */,
 				ABFF53A520DB386D00EA2A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFF53DD20DC7B1400EA2A6F /* Build configuration list for PBXNativeTarget "Fetch-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFF53DE20DC7B1400EA2A6F /* Debug */,
+				ABFF53DF20DC7B1400EA2A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFF53E020DC7B1400EA2A6F /* Build configuration list for PBXNativeTarget "Fetch-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFF53E120DC7B1400EA2A6F /* Debug */,
+				ABFF53E220DC7B1400EA2A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFF53E320DC7B1400EA2A6F /* Build configuration list for PBXNativeTarget "Fetch-MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFF53E420DC7B1400EA2A6F /* Debug */,
+				ABFF53E520DC7B1400EA2A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 import UIKit
 import JavaScriptCore
-import ClientServer_iOS
+import ClientServer
 
 
 class ViewController: UIViewController {
@@ -37,6 +37,9 @@ class ViewController: UIViewController {
                 print(message, err);
             })
             
+            manager?.call("smartTranslate", arguments: ["利益", "zh-CN","en","en"], completeHandle: { (message, err) in
+                print(message, err);
+            })
         }
         
         

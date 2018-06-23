@@ -18,6 +18,8 @@
 - (NSString *)textASCII;
 - (NSString *)json;
 
+- (NSString *)errorInfo;
+
 @end
 
 @protocol CSRequestProtool <JSExport>
